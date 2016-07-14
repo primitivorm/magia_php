@@ -35,13 +35,15 @@ Y verifica que has cargado bien los archivos.
 ## Configuración y uso
 
 Vamos a suponer que tienes una base de datos ya instalada en mysql sino no has hecho aun entra a tu phpmyadmin y crea la tabla y carga su extructura
-para nuestro ejemplo suponemos que tienes una base da datos de un blog con las sigueintes tablas:
+para nuestro ejemplo suponemos que tienes una base de datos de un blog con las siguientes tablas:
 
  
 ```
 articulos
 escritores
 ```
+
+Ahora entra en: <a href="http://localhost/magia_php">http://localhost/magia_php</a>
 
 ## Configura la base de datos
 
@@ -61,8 +63,6 @@ $clave = "miclave";
 ```
 
 ## Define la ruta de tu web
-
-Entra en: <a href="http://localhost/magia_php">http://localhost/magia_php</a>
 
 Define rutas de tu web clic en "Define rutas" algo parecido a esto: 
 
