@@ -34,7 +34,7 @@ Y verifica que has cargado bien los archivos.
 
 ## Configuración y uso
 
-Vamos a suponer que tienes una base de datos ya instalada en mysql sino no has hecho aun entra a tu phpmyadmin y crea la tabla y carga su extructura
+Vamos a suponer que tienes una base de datos ya instalada en phpmysql sino no has hecho aun entra a tu phpmyadmin y crea la tabla y carga su extructura
 para nuestro ejemplo suponemos que tienes una base de datos de un blog con las siguientes tablas:
 
  
