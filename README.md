@@ -11,17 +11,17 @@ Ve a la raíz de tu sitio web
 cd ~/public_html
 `
 
-Alli has una copia del Magia_php
+Alli has una copia del magia_php
 
 
 `
-git clone https://github.com/robincoello/Magia_php.git
+git clone https://github.com/robincoello/magia_php.git
 `
 
 Entra en la carpeta
 
 `
-cd Magia_php
+cd magia_php
 
 `
 
@@ -31,19 +31,10 @@ cd Magia_php
 ## Configuración
 La primer cosa que debes hacer es configurar el fichero bd.php con los datos de tu base de datos:
 <?php  
-$hostname = "localhost"; 
-$dbname = "gestionInmoweb"; 
-$username = "root"; 
-$password = ""; 
-
-## Configuration
-
-First edit the file bd.php:
-<?php  
-$hostname = "localhost"; 
-$dbname = "gestionInmoweb"; 
-$username = "root"; 
-$password = ""; 
+$servidor = "localhost"; 
+$bdatos = "mibasedatos"; 
+$usuario = "root"; 
+$clave = "miclave";
 
 
 ?>
