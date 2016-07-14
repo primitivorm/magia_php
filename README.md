@@ -153,14 +153,15 @@ Copiar ./codigo_fuente/extenciones/funciones a /home/pepito/public_html/blog/ext
 
 ```
 
-## Crear plugin
+
+##Crear plugin
 
 Debes crear plugin por cada una de las tablas
 
- ## Gestión
+##Gestión
 
-Trabajo termijado, entra en 
-<a href="http://localhost/lenguaje_basica/gestion/">http://localhost/lenguaje_basica/gestion/</a>
+Trabajo terminado, entra en 
+<a href="http://localhost/blog/gestion/">http://localhost/blog/gestion/</a>
 
 Nos pedira un login y clave, puedes usar: 
 ```
