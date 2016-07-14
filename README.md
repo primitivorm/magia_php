@@ -156,7 +156,68 @@ Copiar ./codigo_fuente/extenciones/funciones a /home/pepito/public_html/blog/ext
 
 ##Crear plugin
 
-Debes crear plugin por cada una de las tablas
+Debes crear plugin por cada una de las tablas,nos dara algo parecido a esto 
+
+```
+    ok: Nombre de plugin: _contenido
+    ok: Nombre padre es:
+    ok: Nombre de plugin:
+    ok: El plugin: _contenido no existe, puede continuar
+    1020 Dentro de plugin crear:
+    /home/pepito/public_html/blog/gestion
+    : /home/pepito/public_html/blog/gestion/_contenido, creada con exito
+    --- _contenido.php creado con exito
+    : /home/pepito/public_html/blog/gestion/_contenido/controlador, creada con exito
+    --- index.php creado con exito
+    --- ver.php creado con exito
+    --- crear.php creado con exito
+    --- editar.php creado con exito
+    --- borrar.php creado con exito
+    --- buscar.php creado con exito
+    : /home/pepito/public_html/blog/gestion/_contenido/modelos, creada con exito
+    --- index.php creado con exito
+    --- ver.php creado con exito
+    --- crear.php creado con exito
+    --- editar.php creado con exito
+    --- borrar.php creado con exito
+    --- buscar.php creado con exito
+    : /home/pepito/public_html/blog/gestion/_contenido/reg, creada con exito
+    --- get.php creado con exito
+    --- post.php creado con exito
+    --- reg.php creado con exito
+    --- request.php creado con exito
+    : /home/pepito/public_html/blog/gestion/_contenido/vista, creada con exito
+    --- borrar.php creado con exito
+    --- buscar.php creado con exito
+    --- crear.php creado con exito
+    --- editar.php creado con exito
+    --- index.php creado con exito
+    --- sidebar.php creado con exito
+    --- menu.php creado con exito
+    --- tr.php creado con exito
+    --- tr_anadir.php creado con exito
+    --- tr_editar.php creado con exito
+    --- tr_buscar.php creado con exito
+    --- ver.php creado con exito
+    --- funciones.php creado con exito
+    ----- funciones.php se ha llenado el contenido
+    --- index.php creado con exito
+    ----- index.php se ha llenado el contenido
+    --- readme.txt creado con exito
+    ----- readme.txt se ha llenado el contenido
+    --- COPYING creado con exito
+    ----- COPYING se ha llenado el contenido
+    --- .gitignore creado con exito
+    ----- .gitignore se ha llenado el contenido
+    --- version creado con exito
+    ----- version se ha llenado el contenido
+    --- menu creado con exito
+    ----- menu se ha llenado el contenido 
+```
+
+
+
+
 
 ##Gestión
 
