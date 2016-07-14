@@ -30,7 +30,7 @@ cd magia_php
 
 ## Configuración
 
-La primer cosa que debes hacer es configurar el fichero bd.php con los datos de tu base de datos:
+La primer cosa que debes hacer es configurar el fichero ```admin/bd.php``` con los datos de tu base de datos:
 
 ```
 <?php  
@@ -41,5 +41,5 @@ $clave = "miclave";
 ?>
 ```
 
-Después de esto debes entras en http://localhost/magia_php
+Después de esto debes entras en <a href="http://localhost/magia_php">http://localhost/magia_php</a>
 
