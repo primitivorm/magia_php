@@ -29,12 +29,17 @@ cd magia_php
 
 
 ## Configuración
+
 La primer cosa que debes hacer es configurar el fichero bd.php con los datos de tu base de datos:
+
+```
 <?php  
 $servidor = "localhost"; 
 $bdatos = "mibasedatos"; 
 $usuario = "root"; 
 $clave = "miclave";
-
-
 ?>
+```
+
+Después de esto debes entras en http://localhost/magia_php
+
