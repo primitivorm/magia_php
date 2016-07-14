@@ -36,6 +36,7 @@ Y verifica que has cargado bien los archivos.
 
 Vamos a suponer que tienes una base de datos ya instalada en mysql sino no has hecho aun entra a tu phpmyadmin y crea la tabla y carga su extructura
 para nuestro ejemplo suponemos que tienes una base da datos de un blog con las sigueintes tablas:
+
  
 ```
 articulos
@@ -44,9 +45,11 @@ escritores
 
 ## Configura la base de datos
 
-```admin/bd.php``` 
+admin/bd.php
+
 
 Pon tus datos 
+
 
 ```
 <?php  
