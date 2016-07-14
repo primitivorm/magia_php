@@ -1,0 +1,25 @@
+<div class="table-responsive"> 		  
+<table class="table table-striped table-hover">
+<thead>
+    <tr>               
+<?php 
+foreach($resultado as $reg ) {
+include "../magia/reg/reg.php";    
+    echo '
+        <th>&lt;?php _t("'.$mayusculas_pri_let_cad_pal.'"); ?&gt;</th>    ';
+}
+?>
+    </tr>
+</thead>
+<tbody>
+<tr>
+<?php 
+foreach($resultado as $reg ) {
+    echo "<td>&lt;?php echo $$reg[0]; ?&gt;</td>
+    ";
+}
+?>
+</tr>
+</tbody>
+</table>
+</div>    

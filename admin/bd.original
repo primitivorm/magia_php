@@ -1,0 +1,5 @@
+<?php  
+$servidor = "localhost"; 
+$bdatos = "gestioninmoweb"; 
+$usuario = "root"; 
+$clave = "phlpd021"; 
