@@ -11,6 +11,7 @@ nos da una forma facil de hacerlo
 
 ### instalación
 Vamos a la raíz del servidor
+
 `
 cd ~/public_html
 `
@@ -33,13 +34,19 @@ Y verifica que has cargado bien los archivos.
 
 ## Configuración y uso
 
-Vamos a suponer que tienes una base de datos de un blog con las siguientes tablas: 
+Vamos a suponer que tienes una base de datos ya instalada en mysql sino no has hecho aun entra a tu phpmyadmin y crea la tabla y carga su extructura
+para nuestro ejemplo suponemos que tienes una base da datos de un blog con las sigueintes tablas:
+ 
 ```
 articulos
 escritores
 ```
 
-La primer cosa que debes hacer es configurar el fichero ```admin/bd.php``` esta es la base de datos la de la cual magia php va a cojer su extructur para crear el sitio web.
+## Configura la base de datos
+
+```admin/bd.php``` 
+
+Pon tus datos 
 
 ```
 <?php  
@@ -50,22 +57,11 @@ $clave = "miclave";
 ?>
 ```
 
+## Define la ruta de tu web
 
-Después de esto debes entras en <a href="http://localhost/magia_php">http://localhost/magia_php</a>
+Entra en: <a href="http://localhost/magia_php">http://localhost/magia_php</a>
 
-Ahora estamos listos para empezar: 
-
-Ahora debemos decirle a magia php donde debe crear el sitio web para ello editamos definimos la ruta de los plugins 
-
-'Define rutas de los plugins'
-
-entra en 
-
-```
-http://localhost/magia_php/index.php?p=config
-```
-
-y pon la ruta de tu sitio web: algo parecido a esto: 
+Define rutas de tu web clic en "Define rutas" algo parecido a esto: 
 
 ```
 /home/pepito/public_html/blog
@@ -81,22 +77,14 @@ En windows puede ser algo asi
 c:\xampp\www\pepito
 ```
 
+##Copia la base de datos 
 
-ahora debemos copiar en la base de datos la extructura necesaria para que nuestro sitio web funcione, esta extructura es adicional a las tablas que ya tienes en tu base de datos
-Las tablas adicionales que magia php pondra en tu base de datos son: 
-```
-_contenido
-_grupos
-_idiomas
-_menu
-_paginas
-_permisos
-_traducciones
-_usuarios
+ahora copia en tu base de datos la extructura que magia php necesita para ello click en 
 
-```
+"Copiar base.sql (grupos, idiomas, paginas, permisos, usuarios)"
 
-Estas 8 tablas seran necesarias para que tu web funcione, de forma que tu base de datos quedaria asi 
+Tu base de datos quedara asi:
+
 
 ```
 articulos
@@ -111,15 +99,13 @@ _traducciones
 _usuarios
 ```
 
-Ahora entramos nuevamente en 
 
-```
-http://localhost/magia_php/index.php
-```
+##Crea el proyecto
 
-y creamos toda la extructura de nuestro sitio web haciendo click en "Crear proyecto"
+Ahora  click en "Crear proyecto"
 
-No debe dar un resultado parecido a esto
+
+Y nos dara un resultado parecido a esto:
 
 ```
 Vamos a crear los ficheros del proyecto
@@ -164,36 +150,19 @@ Copiar ./codigo_fuente/extenciones/funciones a /home/pepito/public_html/blog/ext
 
 ```
 
+## Crear plugin
 
-Ahora si vemos en la raiz de nuestro blog veremos que se han creado varias carpetas y ficheros, después explicarmos como funciona, ahora mismo ya tenemos nuestro sitio web funcionando
+Debes crear plugin por cada una de las tablas
 
-si entramos en 
+ ## Gestión
 
-```
-http://localhost/lenguaje_basica/gestion
-```
+Trabajo termijado, entra en 
+<a href="http://localhost/lenguaje_basica/gestion/">http://localhost/lenguaje_basica/gestion/</a>
 
-nos pedira un login y clave, puedes usar: 
+Nos pedira un login y clave, puedes usar: 
 ```
 login: root
 clave: root
 ```
 
-En este momento tenemos creado la extructura básica, ahora debemos crear todos los ficheros necesarios para 
-ver, crear editar y borrar informaciones de cada una de las tablas
-
-Regresamos a <a href="http://localhost/magia_php/index.php">http://localhost/magia_php/index.php</a>
-
-y hacemos click en el último paso: "Crear plugin"
-
-alli creamos el plugin por todas las tablas.
-
-Listo ! ahora entra en 
-
-<a href="http://localhost/lenguaje_basica/gestion">http://localhost/lenguaje_basica/gestion</a>
-
-
-
-
-
-
+Disfrurta 
